@@ -9,13 +9,13 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
-	<Section row nopadding>
+	<Section column nopadding>
 		<LeftSection>
 			<SectionTitle main center>
 				Hello There! <br /> I am Eric Santos
 			</SectionTitle>
 			<SectionText>
-				Full Stack Developer focusing on Front-End Development
+				Full Stack Developer <br /> focusing on Front-End Development
 			</SectionText>
 		</LeftSection>
 		<Button
