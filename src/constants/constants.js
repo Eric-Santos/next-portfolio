@@ -1,5 +1,15 @@
 export const projects = [
 	{
+		title: 'GraphQL Blog',
+		description:
+			'This project is meant to display the use of Next.JS with with GraphQL and GraphCMS for a blog',
+		image: '/images/graphqlCMS.png',
+		tags: ['Next.JS', 'GraphQL', 'Graph CMS'],
+		source: 'https://cms-blog-lime-three.vercel.app/',
+		visit: 'https://github.com/Eric-Santos/cms-blog',
+		id: 0,
+	},
+	{
 		title: 'React Slider',
 		description:
 			'I built this image slider to replace previous sliders I have used in clients websites.',
@@ -7,7 +17,7 @@ export const projects = [
 		tags: ['React', 'Progressive Web App', 'Framer-Motion'],
 		source: 'https://react-slider-orcin.vercel.app/',
 		visit: 'https://github.com/Eric-Santos/react-slider/tree/main',
-		id: 0,
+		id: 1,
 	},
 	{
 		title: 'Potential Adventure',
