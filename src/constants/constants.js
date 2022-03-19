@@ -20,6 +20,26 @@ export const projects = [
 		id: 1,
 	},
 	{
+		title: 'Animated Links',
+		description:
+			'This is a fun little project adding custom animation to hyperlinks',
+		image: '/images/custom-links.png',
+		tags: ['HTML', 'CSS', 'SASS'],
+		source: 'https://animated-links.vercel.app/',
+		visit: 'https://github.com/Eric-Santos/animated-links',
+		id: 2,
+	},
+	{
+		title: 'GSAP Animations Page',
+		description:
+			'I created this page to learn about GSAP animations and timeline structure',
+		image: '/images/gsap.png',
+		tags: ['HTML', 'SASS', 'GSAP'],
+		source: 'https://gsap-nine.vercel.app/',
+		visit: 'https://github.com/Eric-Santos/gsap',
+		id: 3,
+	},
+	{
 		title: 'Potential Adventure',
 		description:
 			'This is a project to create a responsive image slider and use styled components with React Router.',
@@ -27,7 +47,7 @@ export const projects = [
 		tags: ['React', 'React Router', 'Styled Components', 'Progressive Web App'],
 		source: 'https://cranky-agnesi-2be1a2.netlify.app/',
 		visit: 'https://github.com/eric-santos/potential-adventure',
-		id: 2,
+		id: 4,
 	},
 	{
 		title: 'E-Commerce',
@@ -36,7 +56,7 @@ export const projects = [
 		image: '/images/5.jpg',
 		tags: ['Next.js', 'Styled Components'],
 		visit: 'https://github.com/Eric-Santos/ecommerce',
-		id: 3,
+		id: 5,
 	},
 ];
 
